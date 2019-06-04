@@ -1,8 +1,13 @@
 import Vue from "vue";
+import VueAnalytics from "vue-analytics";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 
 Vue.use(Router);
+Vue.use(VueAnalytics, {
+  id: "UA-46797998-1",
+  Home
+});
 
 export default new Router({
   mode: "history",
