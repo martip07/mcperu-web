@@ -1,16 +1,22 @@
 <template>
   <div class="background-body">
     <Header />
-    <div class="background-creeper">
-      <div class="creeper-face">
-        <div class="creeper-main-1">
-          <div class="creeper-mouth-1"></div>
-          <div class="creeper-mouth-2"></div>
-          <div class="creeper-eye-left"></div>
-          <div class="creeper-eye-right"></div>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-full">
+            <div class="background-creeper">
+              <div class="creeper-face">
+                <div class="creeper-main-1">
+                  <div class="creeper-mouth-1"></div>
+                  <div class="creeper-mouth-2"></div>
+                  <div class="creeper-eye-left"></div>
+                  <div class="creeper-eye-right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
     <HomeBlog />
     <Footer />
   </div>
