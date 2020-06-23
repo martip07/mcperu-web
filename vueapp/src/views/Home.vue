@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-    <HomeBlog />
+      <Minecraftbox />
     <Footer />
   </div>
 </template>
@@ -26,14 +26,14 @@
 // @ is an alias to /src
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import HomeBlog from "@/components/HomeBlog.vue";
+import Minecraftbox from "@/components/Minecraftbox.vue";
 
 export default {
   name: "home",
   components: {
     Header,
     Footer,
-    HomeBlog
+    Minecraftbox
   }
 };
 </script>
@@ -54,8 +54,6 @@ body {
   background-color: #ffffff;
 }
 .background-creeper {
-  margin-left: 10px;
-  margin-right: 10px;
   max-width: 100%;
   height: 680px;
   display: block;

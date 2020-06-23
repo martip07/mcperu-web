@@ -1,13 +1,13 @@
 <template>
-  <div class="footer">
-      <h4>Powered by <span class="span">serverghost</span></h4>
-      <p>2017 - 2020</p>
+  <div class="minecraftbox">
+      <h4>Noticias, tutoriales, descargas de Minecraft en <a href="https://minecraftbox.io">Minecraftbox</a></h4>
+      <img src="https://minecraftbox.io/content/images/2019/12/minecraftbox-logo-2px-png-1.png" alt="Minecraftbox" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "Footer",
+  name: "minecraftbox",
   props: {
     msg: String
   }
@@ -19,13 +19,13 @@ export default {
 body {
   margin: 0px;
 }
-.footer {
+.minecraftbox {
   display: block;
   margin-top: 77px;
   text-align: center;
   font-family: "Karla", "sans-serif";
 }
-.footer > h4 {
+.minecraftbox > h4 {
   font-size: 15px;
   font-weight: bold;
   font-style: normal;
@@ -35,7 +35,7 @@ body {
   display: block;
   color: #000000;
 }
-.footer > p {
+.minecraftbox > p {
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -44,14 +44,18 @@ body {
   letter-spacing: normal;
   color: #000000;
 }
+.minecraftbox > img {
+  margin-top: 2%;
+  width: 17%;
+}
 .span {
   color: #62b969;
 }
 @media (min-width: 728px) {
-  .footer > h4 {
+  .minecraftbox > h4 {
     font-size: 20px;
   }
-  .footer > p {
+  .minecraftbox > p {
     font-size: 20px;
   }
 }
