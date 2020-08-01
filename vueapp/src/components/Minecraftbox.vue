@@ -1,7 +1,7 @@
 <template>
   <div class="minecraftbox">
-      <h4>Noticias, tutoriales, descargas de Minecraft en <a href="https://minecraftbox.io">Minecraftbox</a></h4>
-      <img src="https://minecraftbox.io/content/images/2019/12/minecraftbox-logo-2px-png-1.png" alt="Minecraftbox" />
+      <h4>Noticias, tutoriales, descargas de Minecraft en <a href="https://minecraftbox.net">Minecraftbox</a></h4>
+      <img src="@/assets/minecraftbox-logo-2px-png-1.png" alt="Minecraftbox" />
   </div>
 </template>
 
